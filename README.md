@@ -5,6 +5,7 @@ When we move transcription or other audio based work to AWS, the application won
 This application is a small audio server which can run on our servers and can be used to serve MP3s, Oggs and waveforms.
 
 To test out the app:
+
 1. Setup the enironment by sourcing setenv.sh
 1. Run the app.py
 1. Run the various demos in demo.py which demonstrate usage
