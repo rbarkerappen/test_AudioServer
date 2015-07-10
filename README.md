@@ -6,7 +6,7 @@ This application is a small audio server which can run on our servers and can be
 
 To test out the app:
 1. Setup the enironment by sourcing setenv.sh
-2. Run the app.py
-3. Run the various demos in demo.py which demonstrate usage
+1. Run the app.py
+1. Run the various demos in demo.py which demonstrate usage
 
 Note: the contents of the utils/ folder should probably be stored in our utilities repo.
