@@ -9,4 +9,7 @@ To test out the app:
 2. Run the app.py
 3. Run the various demos in demo.py which demonstrate usage
 
+# Triage #
+There is also a small triage-style app (triage.py) included. Basically, if we get to a point where each of our audio storage servers have the same setup, installed packages, etc. and produce consistent output, we could setup the main audio server to run on each storage server then use the triage app to redirect the request to the one which hosts the audio. This should processing the audio faster as the file will be local to the server.
+
 Note: the contents of the utils/ folder should probably be stored in our utilities repo.
